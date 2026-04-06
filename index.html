@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FreshFold Laundry — Premium Laundry &amp; Dry Cleaning</title>
+  <meta name="description" content="FreshFold Laundry offers premium wash & fold, dry cleaning, ironing, and pickup & delivery services. Book online or via WhatsApp." />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/components.css" />
+</head>
+<body>
+
+<!-- ══════════════════ NAVBAR ══════════════════ -->
+<nav id="navbar">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">
+        <div class="nav-logo-icon">🫧</div>
+        FreshFold
+      </a>
+      <ul class="nav-links">
+        <li><a href="#home"     data-page="home"     onclick="App.navigate('home')">Home</a></li>
+        <li><a href="#services" data-page="services" onclick="App.navigate('services')">Services</a></li>
+        <li><a href="#prices"   data-page="prices"   onclick="App.navigate('prices')">Prices</a></li>
+        <li><a href="#faq"      data-page="faq"      onclick="App.navigate('faq')">FAQ</a></li>
+      </ul>
+      <a href="#order" class="btn btn-primary nav-cta" onclick="App.navigate('order')">Order Online</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#home"     data-page="home"     onclick="App.navigate('home')">Home</a>
+    <a href="#services" data-page="services" onclick="App.navigate('services')">Services</a>
+    <a href="#prices"   data-page="prices"   onclick="App.navigate('prices')">Prices</a>
+    <a href="#faq"      data-page="faq"      onclick="App.navigate('faq')">FAQ</a>
+    <a href="#order" class="btn btn-primary" onclick="App.navigate('order')">Order Online</a>
+  </div>
+</nav>
+
+<!-- ══════════════════ HOME PAGE ══════════════════ -->
+<section id="page-home" class="page-section active">
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="hero-bg-pattern"></div>
+    <div class="hero-glow"></div>
+    <div class="container">
+      <div class="hero-inner">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="hero-badge-dot"></span>
+            Now serving Across the world
+          </div>
+          <h1>Your laundry,<br><span>done right.</span></h1>
+          <p class="hero-sub">FreshFold Laundry brings professional wash, fold, dry cleaning, and ironing to your doorstep. Pickup and delivery included.</p>
+          <div class="hero-actions">
+            <a href="#order" class="btn btn-primary" onclick="App.navigate('order')">Place an Order →</a>
+            <a href="#services" class="btn btn-outline" onclick="App.navigate('services')">See Services</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-item">
+              <div class="stat-num">500+</div>
+              <div class="stat-label">Happy customers</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-num">24h</div>
+              <div class="stat-label">Express option</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-num">4.9★</div>
+              <div class="stat-label">Average rating</div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-card-stack">
+            <div class="hcard hcard-back2"></div>
+            <div class="hcard hcard-back1"></div>
+            <div class="hcard hcard-main">
+              <div class="card-icon">🫧</div>
+              <h4>Order #FF-2041</h4>
+              <p>Wash &amp; Fold · 3 kg</p>
+              <div class="card-tags">
+                <span class="tag">✓ Picked up</span>
+                <span class="tag">In progress</span>
+              </div>
+            </div>
+            <div class="hcard-pickup">
+              <div class="hcard-pickup-icon">🚚</div>
+              <div class="hcard-pickup-text">
+                <span>Delivery scheduled</span>
+                <strong>Today, 4:00 PM</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TRUST STRIP -->
+  <div class="trust-strip">
+    <div class="container">
+      <div class="trust-inner">
+        <div class="trust-item"><span class="trust-icon">🚚</span><span class="trust-text">Free pickup &amp; delivery</span></div>
+        <div class="trust-item"><span class="trust-icon">⚡</span><span class="trust-text">Express 24-hour service</span></div>
+        <div class="trust-item"><span class="trust-icon">🛡️</span><span class="trust-text">Clothes insured &amp; safe</span></div>
+        <div class="trust-item"><span class="trust-icon">🌿</span><span class="trust-text">Eco-friendly detergents</span></div>
+        <div class="trust-item"><span class="trust-icon">💬</span><span class="trust-text">WhatsApp support</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- HOW IT WORKS -->
+  <section class="how-bg">
+    <div class="container">
+      <div class="section-header centered">
+        <div class="section-label">Simple process</div>
+        <h2 class="section-title">How FreshFold works</h2>
+        <p class="section-sub">From booking to delivery — we keep it simple, clean, and stress-free.</p>
+      </div>
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-num">1</div>
+          <div class="step-icon">📱</div>
+          <h3>Book online</h3>
+          <p>Place your order in under 2 minutes using our online form or WhatsApp.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">2</div>
+          <div class="step-icon">🚚</div>
+          <h3>We pick up</h3>
+          <p>Our rider comes to your door at your chosen time. No waiting around.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">3</div>
+          <div class="step-icon">✨</div>
+          <h3>We clean</h3>
+          <p>Your clothes are professionally washed, dried, ironed, and packed.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">4</div>
+          <div class="step-icon">📦</div>
+          <h3>We deliver</h3>
+          <p>Clean, fresh clothes delivered back to you. Pay on delivery.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES TEASER -->
+  <section>
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">What we offer</div>
+        <h2 class="section-title">Our laundry services</h2>
+        <p class="section-sub">Professional care for every type of garment and fabric.</p>
+      </div>
+      <div class="teaser-grid">
+        <div class="teaser-card" onclick="App.navigate('services')">
+          <div class="teaser-icon">🫧</div>
+          <h3>Wash &amp; Fold</h3>
+          <p>Everyday laundry washed and neatly folded. Priced per kilogram.</p>
+          <div class="card-link">Learn more →</div>
+        </div>
+        <div class="teaser-card" onclick="App.navigate('services')">
+          <div class="teaser-icon">👔</div>
+          <h3>Dry Cleaning</h3>
+          <p>Expert care for suits, gowns, native wear, and delicate fabrics.</p>
+          <div class="card-link">Learn more →</div>
+        </div>
+        <div class="teaser-card" onclick="App.navigate('services')">
+          <div class="teaser-icon">👕</div>
+          <h3>Ironing Only</h3>
+          <p>Sharp, crisp results on shirts, trousers, and formal wear. Per item.</p>
+          <div class="card-link">Learn more →</div>
+        </div>
+        <div class="teaser-card" onclick="App.navigate('services')">
+          <div class="teaser-icon">🛏️</div>
+          <h3>Duvet &amp; Bedding</h3>
+          <p>Duvets, bedsheets, curtains, and household linens cleaned with care.</p>
+          <div class="card-link">Learn more →</div>
+        </div>
+        <div class="teaser-card" onclick="App.navigate('services')">
+          <div class="teaser-icon">🚚</div>
+          <h3>Pickup &amp; Delivery</h3>
+          <p>We come to you — pickup and drop-off at your home or office.</p>
+          <div class="card-link">Learn more →</div>
+        </div>
+        <div class="teaser-card" onclick="App.navigate('services')">
+          <div class="teaser-icon">⚡</div>
+          <h3>Express 24h</h3>
+          <p>Need it fast? Express orders are collected and returned in 24 hours.</p>
+          <div class="card-link">Learn more →</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials-bg">
+    <div class="container">
+      <div class="section-header centered">
+        <div class="section-label">Customer love</div>
+        <h2 class="section-title" style="color:white">What our customers say</h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="t-stars">★★★★★</div>
+          <p class="t-text">"FreshFold has completely changed my Sundays. I used to spend hours doing laundry — now I book on Friday, they pick up Saturday, and everything is back by Monday morning. Incredible service."</p>
+          <div class="t-author">
+            <div class="t-avatar">A</div>
+            <div>
+              <div class="t-name">Adaeze O.</div>
+              <div class="t-meta">Lekki Phase 1</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="t-stars">★★★★★</div>
+          <p class="t-text">"I sent in my agbada for dry cleaning before a wedding. It came back looking brand new — better than when I first bought it. Very professional handling of native wear."</p>
+          <div class="t-author">
+            <div class="t-avatar">K</div>
+            <div>
+              <div class="t-name">Kunle B.</div>
+              <div class="t-meta">Victoria Island</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="t-stars">★★★★★</div>
+          <p class="t-text">"The express service is a lifesaver. Submitted at 8 AM on Monday, had everything back by Tuesday afternoon — shirts perfectly ironed. They even WhatsApp'd me updates."</p>
+          <div class="t-author">
+            <div class="t-avatar">T</div>
+            <div>
+              <div class="t-name">Tola A.</div>
+              <div class="t-meta">Yaba</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section>
+    <div class="cta-banner">
+      <div>
+        <h2>Ready for fresh, clean clothes?</h2>
+        <p>Place your first order today. Pickup available 7 days a week.</p>
+      </div>
+      <a href="#order" class="btn btn-white" onclick="App.navigate('order')">Order Now →</a>
+    </div>
+  </section>
+
+</section><!-- /home -->
+
+
+<!-- ══════════════════ SERVICES PAGE ══════════════════ -->
+<section id="page-services" class="page-section">
+  <div class="services-hero">
+    <div class="container">
+      <div class="section-label" style="justify-content:center;color:#00d4c4">What we offer</div>
+      <h1>Our Services</h1>
+      <p>Professional laundry care for every garment, fabric, and occasion.</p>
+    </div>
+  </div>
+  <section>
+    <div class="container">
+      <div class="services-grid">
+
+        <div class="service-card" data-order="1">
+          <div class="sc-icon">🫧</div>
+          <h3>Wash &amp; Fold</h3>
+          <p>Your everyday laundry washed with premium detergents, fully dried, and neatly folded — ready to wear.</p>
+          <ul class="sc-features">
+            <li>Machine wash with quality detergents</li>
+            <li>Sorted by colour and fabric type</li>
+            <li>Neatly folded and sealed in bags</li>
+            <li>Bulk pricing available</li>
+          </ul>
+          <div class="sc-price">From ₦1,200/kg <span>— standard 48–72h</span></div>
+          <br><button class="btn btn-primary" style="margin-top:16px" onclick="App.navigate('order')">Book Now</button>
+        </div>
+
+        <div class="service-card" data-order="2">
+          <div class="sc-icon">👔</div>
+          <h3>Dry Cleaning</h3>
+          <p>Expert care for suits, blazers, gowns, agbada, and delicate or embellished fabrics that need specialist handling.</p>
+          <ul class="sc-features">
+            <li>Specialist dry-clean solvents</li>
+            <li>Gentle on embellishments & beading</li>
+            <li>Pressed and hung for delivery</li>
+            <li>Native & formal wear specialists</li>
+          </ul>
+          <div class="sc-price">From ₦2,000/item <span>— 3–5 business days</span></div>
+          <br><button class="btn btn-primary" style="margin-top:16px" onclick="App.navigate('order')">Book Now</button>
+        </div>
+
+        <div class="service-card" data-order="3">
+          <div class="sc-icon">👕</div>
+          <h3>Ironing Only</h3>
+          <p>Drop off or send in clean clothes and get them back crisp, sharp, and ready to wear. Ideal for office shirts and formal wear.</p>
+          <ul class="sc-features">
+            <li>Steam ironing for sharp results</li>
+            <li>Shirt collars & cuffs done right</li>
+            <li>Starch finish on request</li>
+            <li>Hung and protected for delivery</li>
+          </ul>
+          <div class="sc-price">From ₦600/item <span>— 24–48h turnaround</span></div>
+          <br><button class="btn btn-primary" style="margin-top:16px" onclick="App.navigate('order')">Book Now</button>
+        </div>
+
+        <div class="service-card" data-order="4">
+          <div class="sc-icon">🛏️</div>
+          <h3>Duvet &amp; Bedding</h3>
+          <p>Duvets, bedsheets, pillowcases, curtains, and tablecloths — full home linen service cleaned thoroughly and returned fresh.</p>
+          <ul class="sc-features">
+            <li>Duvets washed and dried properly</li>
+            <li>Bedsheet sets (fitted + flat)</li>
+            <li>Curtains and drapes by the panel</li>
+            <li>Sealed in hygienic clear bags</li>
+          </ul>
+          <div class="sc-price">From ₦3,500/set <span>— 48–72h turnaround</span></div>
+          <br><button class="btn btn-primary" style="margin-top:16px" onclick="App.navigate('order')">Book Now</button>
+        </div>
+
+        <div class="service-card" data-order="5">
+          <div class="sc-icon">🚚</div>
+          <h3>Pickup &amp; Delivery</h3>
+          <p>We come to you. Schedule a pickup at your home, office, or any address within our coverage zone. Delivery back to the same address.</p>
+          <ul class="sc-features">
+            <li>7 days a week availability</li>
+            <li>Choose your pickup time slot</li>
+            <li>Track your order via WhatsApp</li>
+            <li>Pay on delivery — cash or transfer</li>
+          </ul>
+          <div class="sc-price">₦500 flat fee <span>— per pickup & delivery round trip</span></div>
+          <br><button class="btn btn-primary" style="margin-top:16px" onclick="App.navigate('order')">Book Now</button>
+        </div>
+
+        <div class="service-card" data-order="6">
+          <div class="badge-express">Express</div>
+          <div class="sc-icon">⚡</div>
+          <h3>Express 24h Service</h3>
+          <p>In a rush? Our express service guarantees your laundry is collected, cleaned, and returned within 24 hours — booked by 10 AM.</p>
+          <ul class="sc-features">
+            <li>Collection same day (before 10 AM)</li>
+            <li>Returned within 24 hours</li>
+            <li>Priority processing</li>
+            <li>Available Mon–Sat</li>
+          </ul>
+          <div class="sc-price">+₦2,500 surcharge <span>— on top of standard service rate</span></div>
+          <br><button class="btn btn-primary" style="margin-top:16px" onclick="App.navigate('order')">Book Express</button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+</section><!-- /services -->
+
+
+<!-- ══════════════════ PRICES PAGE ══════════════════ -->
+<section id="page-prices" class="page-section">
+  <div class="prices-hero">
+    <div class="container">
+      <div class="section-label" style="justify-content:center;color:#00d4c4">Transparent pricing</div>
+      <h1>Pricing</h1>
+      <p>Clear, upfront prices. No hidden charges.</p>
+    </div>
+  </div>
+  <section>
+    <div class="container">
+      <div class="price-tabs">
+        <button class="price-tab active" data-tab="wash-fold">Wash &amp; Fold</button>
+        <button class="price-tab" data-tab="dry-clean">Dry Cleaning</button>
+        <button class="price-tab" data-tab="iron">Ironing</button>
+        <button class="price-tab" data-tab="bedding">Bedding &amp; Home</button>
+      </div>
+      <div class="price-table-wrap">
+        <table class="price-table">
+          <thead>
+            <tr><th>Item / Service</th><th>Price</th></tr>
+          </thead>
+          <tbody id="price-tbody"></tbody>
+        </table>
+      </div>
+      <div class="price-note">
+        <span>ℹ️</span>
+        <span><strong>Pickup &amp; Delivery:</strong> ₦500 flat fee per round trip. <strong>Express 24h:</strong> +₦2,500 surcharge on top of any service. Prices may vary for heavily soiled, oversized, or specialty items — we'll always confirm before proceeding.</span>
+      </div>
+      <div style="text-align:center;margin-top:40px">
+        <a href="#order" class="btn btn-primary" onclick="App.navigate('order')">Place Your Order →</a>
+      </div>
+    </div>
+  </section>
+</section><!-- /prices -->
+
+
+<!-- ══════════════════ ORDER PAGE ══════════════════ -->
+<section id="page-order" class="page-section">
+  <div class="order-hero">
+    <div class="container">
+      <div class="section-label" style="justify-content:center;color:#00d4c4">Book a pickup</div>
+      <h1>Order Online</h1>
+      <p>Fill in your details and we'll take care of the rest.</p>
+    </div>
+  </div>
+  <section>
+    <div class="container">
+      <div class="order-layout">
+
+        <!-- FORM CARD -->
+        <div class="form-card">
+          <div id="form-card-inner">
+            <!-- Step Indicator -->
+            <div class="step-indicator" id="step-indicator"></div>
+
+            <!-- Step 1: Contact Details -->
+            <div class="form-step active" id="step-1">
+              <h3>Your details</h3>
+              <p class="step-desc">Tell us who you are and where to collect your laundry.</p>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="order-name">Full Name *</label>
+                  <input type="text" id="order-name" placeholder="e.g. Amaka Johnson" />
+                  <div class="err-msg">Full name is required</div>
+                </div>
+                <div class="form-group">
+                  <label for="order-phone">Phone Number *</label>
+                  <input type="tel" id="order-phone" placeholder="e.g. 08012345678" />
+                  <div class="err-msg">Phone number is required</div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="order-email">Email Address <span style="color:var(--text-muted);font-weight:400">(optional)</span></label>
+                <input type="email" id="order-email" placeholder="e.g. amaka@email.com" />
+                <div class="err-msg">Enter a valid email address</div>
+              </div>
+              <div class="form-group">
+                <label for="order-address">Pickup Address *</label>
+                <input type="text" id="order-address" placeholder="Full address including area, e.g. 12 Palm Ave, Lekki Phase 1" />
+                <div class="err-msg">Pickup address is required</div>
+              </div>
+              <div class="form-nav">
+                <span></span>
+                <button class="btn btn-primary" onclick="nextStep()">Continue →</button>
+              </div>
+            </div>
+
+            <!-- Step 2: Select Services -->
+            <div class="form-step" id="step-2">
+              <h3>Select services</h3>
+              <p class="step-desc">Choose what you need. You can select multiple services.</p>
+              <div class="service-selector" id="service-selector"></div>
+              <div style="margin-top:16px;font-size:0.85rem;color:var(--text-muted);display:flex;justify-content:space-between;align-items:center">
+                <span>Estimated total:</span>
+                <strong style="font-size:1.05rem;color:var(--navy)" id="estimate-display">₦0</strong>
+              </div>
+              <div class="form-nav">
+                <button class="btn btn-outline" onclick="prevStep()">← Back</button>
+                <button class="btn btn-primary" onclick="nextStep()">Continue →</button>
+              </div>
+            </div>
+
+            <!-- Step 3: Schedule -->
+            <div class="form-step" id="step-3">
+              <h3>Schedule pickup</h3>
+              <p class="step-desc">Choose when we should collect your laundry.</p>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="pickup-date">Pickup Date *</label>
+                  <input type="date" id="pickup-date" />
+                </div>
+                <div class="form-group">
+                  <label for="pickup-time">Pickup Time *</label>
+                  <select id="pickup-time"></select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="order-notes">Special Instructions <span style="color:var(--text-muted);font-weight:400">(optional)</span></label>
+                <textarea id="order-notes" placeholder="e.g. Use unscented detergent, do not tumble dry blue shirt, starch all shirts lightly…"></textarea>
+              </div>
+              <div class="form-nav">
+                <button class="btn btn-outline" onclick="prevStep()">← Back</button>
+                <button class="btn btn-primary" onclick="nextStep()">Review Order →</button>
+              </div>
+            </div>
+
+            <!-- Step 4: Summary -->
+            <div class="form-step" id="step-4">
+              <h3>Review your order</h3>
+              <p class="step-desc">Double-check everything before confirming.</p>
+              <div class="summary-block">
+                <h4>Contact &amp; Address</h4>
+                <div id="summary-contact"></div>
+              </div>
+              <div class="summary-block">
+                <h4>Services</h4>
+                <div id="summary-services"></div>
+              </div>
+              <div class="summary-block">
+                <h4>Pickup Schedule</h4>
+                <div id="summary-schedule"></div>
+              </div>
+              <p style="font-size:0.82rem;color:var(--text-muted);margin-bottom:20px">
+                Payment is on delivery (cash or bank transfer). Final price may differ slightly for heavily soiled or special items — we'll call to confirm.
+              </p>
+              <div class="form-nav">
+                <button class="btn btn-outline" onclick="prevStep()">← Back</button>
+                <button class="btn btn-primary" id="submit-btn" onclick="submitOrder()">✓ Confirm Order</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Confirmation screen -->
+          <div class="confirm-screen" id="confirm-screen" style="display:none">
+            <div class="confirm-icon">✅</div>
+            <h3>Order Received!</h3>
+            <p>Thank you! We've got your order and will contact you via WhatsApp to confirm the pickup details within 30 minutes.</p>
+            <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:8px">
+              <button class="btn btn-primary" onclick="resetOrder()">Place Another Order</button>
+              <a href="https://wa.me/2348000000000" target="_blank" class="btn btn-outline">Chat on WhatsApp</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- SIDEBAR -->
+        <div class="order-sidebar">
+          <div class="sidebar-card">
+            <h4>Why FreshFold?</h4>
+            <div class="sidebar-item">
+              <div class="si-icon">⚡</div>
+              <div class="si-text">
+                <strong>Express available</strong>
+                <span>Same-day collection, 24h return</span>
+              </div>
+            </div>
+            <div class="sidebar-item">
+              <div class="si-icon">💳</div>
+              <div class="si-text">
+                <strong>Pay on delivery</strong>
+                <span>Cash, bank transfer or POS</span>
+              </div>
+            </div>
+            <div class="sidebar-item">
+              <div class="si-icon">📦</div>
+              <div class="si-text">
+                <strong>Sealed &amp; protected</strong>
+                <span>Items returned in sealed bags</span>
+              </div>
+            </div>
+            <div class="sidebar-item">
+              <div class="si-icon">🛡️</div>
+              <div class="si-text">
+                <strong>Fully insured</strong>
+                <span>Your clothes are in safe hands</span>
+              </div>
+            </div>
+          </div>
+          <div class="sidebar-card">
+            <h4>Prefer WhatsApp?</h4>
+            <div class="whatsapp-alt">
+              <p>You can also place your order directly on WhatsApp. We usually respond in minutes.</p>
+              <a href="https://wa.me/2348000000000?text=Hi%20FreshFold%2C%20I%20want%20to%20place%20a%20laundry%20order" target="_blank" class="btn-whatsapp">
+                💬 Chat on WhatsApp
+              </a>
+            </div>
+          </div>
+          <div class="sidebar-card">
+            <h4>Coverage areas</h4>
+            <p style="font-size:0.85rem">Lekki · Victoria Island · Ajah · Lagos Island · Yaba · Surulere · Ikeja · Maryland</p>
+            <p style="font-size:0.82rem;margin-top:8px;color:var(--text-light)">Not listed? WhatsApp us to check your area.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+</section><!-- /order -->
+
+
+<!-- ══════════════════ FAQ PAGE ══════════════════ -->
+<section id="page-faq" class="page-section">
+  <div class="faq-hero">
+    <div class="container">
+      <div class="section-label" style="justify-content:center;color:#00d4c4">Got questions?</div>
+      <h1>Frequently Asked Questions</h1>
+      <p>Everything you need to know about FreshFold Laundry.</p>
+      <div class="faq-search-wrap">
+        <span class="faq-search-icon">🔍</span>
+        <input type="text" class="faq-search" id="faq-search" placeholder="Search questions…" />
+      </div>
+    </div>
+  </div>
+  <section>
+    <div class="container">
+      <div class="faq-cats">
+        <button class="faq-cat active" data-cat="all">All</button>
+        <button class="faq-cat" data-cat="ordering">Ordering</button>
+        <button class="faq-cat" data-cat="pricing">Pricing</button>
+        <button class="faq-cat" data-cat="delivery">Delivery &amp; Turnaround</button>
+        <button class="faq-cat" data-cat="quality">Quality &amp; Care</button>
+      </div>
+      <div class="faq-list" id="faq-list"></div>
+      <div class="faq-cta">
+        <h3>Still have a question?</h3>
+        <p>Our team is available 7 days a week to help you.</p>
+        <div class="faq-cta-btns">
+          <a href="https://wa.me/2348000000000?text=Hi%20FreshFold%2C%20I%20have%20a%20question" target="_blank" class="btn btn-primary">💬 Chat on WhatsApp</a>
+          <a href="mailto:hello@freshfold.ng" class="btn btn-outline">✉️ Send us an email</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</section><!-- /faq -->
+
+
+<!-- ══════════════════ FOOTER ══════════════════ -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <div class="footer-logo-icon">🫧</div>
+          FreshFold
+        </div>
+        <p>Professional laundry, dry cleaning, and ironing service in Lagos. Pickup &amp; delivery at your door, 7 days a week.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Pages</h4>
+        <ul>
+          <li><a href="#home" onclick="App.navigate('home')">Home</a></li>
+          <li><a href="#services" onclick="App.navigate('services')">Services</a></li>
+          <li><a href="#prices" onclick="App.navigate('prices')">Prices</a></li>
+          <li><a href="#order" onclick="App.navigate('order')">Order Online</a></li>
+          <li><a href="#faq" onclick="App.navigate('faq')">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services" onclick="App.navigate('services')">Wash &amp; Fold</a></li>
+          <li><a href="#services" onclick="App.navigate('services')">Dry Cleaning</a></li>
+          <li><a href="#services" onclick="App.navigate('services')">Ironing Only</a></li>
+          <li><a href="#services" onclick="App.navigate('services')">Duvets &amp; Bedding</a></li>
+          <li><a href="#services" onclick="App.navigate('services')">Express 24h</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="https://wa.me/2348000000000" target="_blank">💬 WhatsApp Us</a></li>
+          <li><a href="tel:+2348000000000">📞 0800 000 0000</a></li>
+          <li><a href="mailto:hello@freshfold.ng">✉️ hello@freshfold.ng</a></li>
+          <li><a href="#order" onclick="App.navigate('order')">🚚 Book a Pickup</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 FreshFold Laundry. All rights reserved.</p>
+      <div class="footer-socials">
+        <div class="social-btn" title="Instagram">IG</div>
+        <div class="social-btn" title="Facebook">FB</div>
+        <div class="social-btn" title="Twitter/X">X</div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp float -->
+<a href="https://wa.me/2348000000000?text=Hi%20FreshFold%2C%20I%27d%20like%20to%20place%20a%20laundry%20order" target="_blank" class="whatsapp-float" title="Chat on WhatsApp">💬</a>
+
+<!-- Toast container -->
+<div id="toast-container"></div>
+
+<!-- Scripts -->
+<script src="js/utils.js"></script>
+<script src="js/order.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
